@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-netstat -tn | tail -n +3 | awk '{print $5}'
+# This script displays all active IPv4 IPs on the machine
